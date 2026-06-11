@@ -1,0 +1,27 @@
+# Dependency directories
+node_modules/
+client/node_modules/
+server/node_modules/
+
+# Local databases & temp files
+server/db.json
+server/db.json.tmp
+*.tmp
+
+# Build outputs
+client/dist/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# System & Editor files
+.DS_Store
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
