@@ -3,7 +3,7 @@ import TaskItem from './components/TaskItem';
 import TaskForm from './components/TaskForm';
 import ConfirmationModal from './components/ConfirmationModal';
 
-const API_URL = 'http://localhost:5000/api';
+const API_URL = 'https://task-manager-backend-eg58.onrender.com/api';
 
 export default function App() {
   const [tasks, setTasks] = useState([]);
